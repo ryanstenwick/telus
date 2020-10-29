@@ -1,0 +1,27 @@
+<!--
+   var formSubmitted = false;
+
+   function not_submitted(){
+     if (!formSubmitted) {
+       formSubmitted = true;
+       return true;
+     }
+     return false;
+   }
+
+   function submitOnEnter(myfield, e)
+   {
+      var keycode;
+      if (window.event) keycode = window.event.keyCode;
+      else if (e) keycode = e.which;
+      else return true;
+      if (keycode ==13){
+        if (not_submitted()) {
+          myfield.form.submit();
+        }
+        return false;
+      }
+      else
+        return true;
+   }    function submitTypeChangePassword(myfield)      {	   document.getElementById("PageType").value= "fromPartnerChangePassword";	   document.forms[myfield].submit();    }       
+//-->

